@@ -1,1 +1,16 @@
-/* put your @font-faces here */
+/* put your fonts in src/fonts and your @font-faces here */
+
+/*
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/open-sans-v17-latin-300.eot');
+    src: local('Open Sans Light'), local('OpenSans-Light'),
+    url('../fonts/open-sans-v17-latin-300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/open-sans-v17-latin-300.woff2') format('woff2'),
+    url('../fonts/open-sans-v17-latin-300.woff') format('woff'),
+    url('../fonts/open-sans-v17-latin-300.ttf') format('truetype'),
+    url('../fonts/open-sans-v17-latin-300.svg#OpenSans') format('svg');
+}
+*/
