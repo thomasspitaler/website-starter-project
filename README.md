@@ -1,6 +1,6 @@
 # Website Starter Project
 
-This is a starter project for static websites.
+This is a starter project for static websites, see live demo at [https://sad-engelbart-908f70.netlify.com](https://sad-engelbart-908f70.netlify.com).
 
 The website is built based on the following tech:
 
