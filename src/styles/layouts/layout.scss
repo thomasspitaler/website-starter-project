@@ -1,0 +1,28 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+
+    &__main {
+        flex: 1;
+
+        .section:last-child {
+            padding-bottom: 8em;
+        }
+    }
+}
+
+.layout.layout--homepage {
+    .layout__main {
+        .section:first-child {
+            margin-bottom: 2em;
+        }
+    }
+}
+
+.layout:not(.layout--homepage) {
+    .layout__main {
+        .section:first-child {
+            margin-top: $navbar-height + 2rem;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@import "./navbar-animation.scss";
+
+.navbar {
+
+}
+
+.navbar.is-transparent.headroom--top {
+    background: transparent;
+    // background: rgba(255, 255, 255, 0.2);
+
+    .navbar-item {
+        font-weight: bold;
+    }
+}
+
+.navbar--has-border {
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05) ;
+}

@@ -1,0 +1,7 @@
+.logo {
+    width: 30px;
+
+    @media screen and (max-width: $desktop - 1) {
+        width: 75px;
+    }
+}

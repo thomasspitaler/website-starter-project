@@ -1,0 +1,73 @@
+{
+  "name": "pension-elli",
+  "version": "1.0.0",
+  "description": "Website of KFZ pension-elli",
+  "main": "index.js",
+  "scripts": {
+    "start": "run-s clean dev:eleventy:build dev:watch",
+    "clean": "run-p eleventy:clean webpack:clean",
+    "dev:watch": "run-p dev:eleventy:watch dev:webpack:watch",
+    "eleventy:clean": "rimraf build-11ty",
+    "webpack:clean": "rimraf web",
+    "dev:eleventy:build": "ELEVENTY_ENV=development eleventy",
+    "dev:eleventy:watch": "ELEVENTY_ENV=development eleventy --watch",
+    "dev:webpack:watch": "webpack-dev-server --mode development --watch",
+    "build": "run-s prod:*",
+    "prod:del": "run-s clean",
+    "prod:eleventy": "ELEVENTY_ENV=production eleventy",
+    "prod:webpack": "webpack --mode production",
+    "deploy": "rsync -avz web/* web-server:/var/www/kalkbrenner/web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simple-bytes/pension-elli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simple-bytes/pension-elli/issues"
+  },
+  "homepage": "https://github.com/simple-bytes/pension-elli#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy-plugin-rss": "^1.0.6",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@fortawesome/fontawesome-free": "^5.10.1",
+    "babel-loader": "^8.0.6",
+    "bulma": "^0.7.5",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.0.0",
+    "dotenv": "^8.0.0",
+    "eleventy-plugin-nesting-toc": "^1.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "favicons-webpack-plugin": "^1.0.1",
+    "file-loader": "^4.2.0",
+    "glob": "^7.1.4",
+    "html-webpack-plugin": "^3.2.0",
+    "luxon": "^1.16.1",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "dependencies": {
+    "cookieconsent": "^3.1.1",
+    "flickity": "^2.2.1",
+    "google-maps": "^3.3.0",
+    "headroom.js": "^0.9.4",
+    "scrollreveal": "^4.0.5"
+  }
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import "./fonts.scss";
+
+// bulma variables
+
+// navbar
+$navbar-height: 10rem;
+$navbar-item-img-max-height: none;
+$footer-padding: 2em;
+
+// Import all of Bulma
+@import "~bulma/bulma";
+
+// layouts
+@import "./layouts/layout.scss";
+
+// components
+// @import "./components/page.scss";
+@import "./components/logo.scss";
+@import "./components/navbar.scss";
+@import "./components/footer.scss";
+@import "./components/cookie-consent.scss";
+@import "./components/smooth-scroll.scss";
