@@ -10,7 +10,7 @@ The website is built based on the following tech:
 - [Bulma](https://bulma.io/) CSS framework
 - [Font Awesome](https://fontawesome.com/) Icon Font
 
-The generated scaffold website is pretty basic but includes the following niceties:
+The generated scaffold website is pretty basic but includes the following goodies:
 
 - a simple site works out of the box, including example pages created from `.html` and `.md`
 - animated navbar that will turn transparent on the start page when fully scrolled up
@@ -19,6 +19,7 @@ The generated scaffold website is pretty basic but includes the following niceti
 - example `_redirect` file is provided for simple deployment to [netlify](https://www.netlify.com/) and using your custom domain name
 - cookie banner based on [cookieconsent](https://www.npmjs.com/package/cookieconsent)
 - [GTM](https://tagmanager.google.com/#/home) scripts included
+- a `sitemap.xml` is automatically generated
 
 ## Installation
 
