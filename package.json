@@ -1,7 +1,7 @@
 {
-  "name": "pension-elli",
+  "name": "website-starter-project",
   "version": "1.0.0",
-  "description": "Website of KFZ pension-elli",
+  "description": "Website Starter Project",
   "main": "index.js",
   "scripts": {
     "start": "run-s clean dev:eleventy:build dev:watch",
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simple-bytes/pension-elli.git"
+    "url": "git+https://github.com/simple-bytes/website-starter-project.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/simple-bytes/pension-elli/issues"
+    "url": "https://github.com/simple-bytes/website-starter-project/issues"
   },
-  "homepage": "https://github.com/simple-bytes/pension-elli#readme",
+  "homepage": "https://github.com/simple-bytes/website-starter-project#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
     "@11ty/eleventy-plugin-rss": "^1.0.6",
