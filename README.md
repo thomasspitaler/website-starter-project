@@ -30,7 +30,7 @@ The generated scaffold website is pretty basic but includes the following goodie
 ## Configuration
 
 1. copy the environment configuration with `cp .env.example .env`
-1. set the variables in `.env` according to your environment, `ROOT_URL will be used for generating absolute paths in sitemap.xml`
+1. set the variables in `.env` according to your environment, `ROOT_URL will` be used for generating absolute paths in sitemap.xml
 1. configure GTM and your company/contact information in `src/_data/config.js`, which will be used to create a default footer and imprint (the latter in German only, at the moment)
 
 ## Development
