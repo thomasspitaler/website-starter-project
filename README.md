@@ -14,7 +14,7 @@ The generated scaffold website is pretty basic but includes the following goodie
 
 - a simple site works out of the box, including example pages created from `.html` and `.md`
 - animated navbar that will turn transparent on the start page when fully scrolled up
-- favicons in different formats are automatically generated from `src/favicon.svg`, and the generated favicons are included in the generated html
+- favicons in different formats are automatically generated from `src/images/favicon.svg`, and the generated favicons are included in the generated html
 - default footer including contact information, copyright notice and google maps link
 - example `_redirect` file is provided for simple deployment to [netlify](https://www.netlify.com/) and using your custom domain name
 - cookie banner based on [cookieconsent](https://www.npmjs.com/package/cookieconsent)
